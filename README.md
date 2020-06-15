@@ -1,1 +1,1 @@
-中国用户专用hosts
+ad block
