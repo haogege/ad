@@ -18,3 +18,9 @@
 ||g.tbcdn.cn/tbc/??search-suggest^
 ||g.alicdn.com/tb/item-recommend^
 ||tui.taobao.com/recommend^
+
+!快手
+@@||live.ksapisrv.com^$important
+@@||upload.ksapisrv.com^$important
+@@||apissl.ksapisrv.com^$important
+@@||push.ksapisrv.com^$important
