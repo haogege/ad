@@ -20,7 +20,6 @@
 ||tui.taobao.com/recommend^
 
 !快手
-||ulog.gifshow.com^$important
 #@@||push.ksapisrv.com^$important
 
 ||ali-stats.jpush.cn^$important
