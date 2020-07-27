@@ -20,7 +20,8 @@
 ||tui.taobao.com/recommend^
 
 !快手
-#@@||push.ksapisrv.com^$important
+@@||apissl.ksapisrv.com^$important
+@@||upload.ksapisrv.com^$important
 
 ||ali-stats.jpush.cn^$important
 ||baichuan-sdk.alicdn.com^$important
