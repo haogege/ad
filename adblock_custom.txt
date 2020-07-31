@@ -42,6 +42,4 @@
 
 #彩云app
 ||ad.caiyunapp.com^$important
-||toblog.ctobsnssdk.com^$important
-||extlog.snssdk.com^$important
 
