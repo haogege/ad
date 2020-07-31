@@ -35,3 +35,7 @@
 ||adimg.uve.weibo.com^$important
 ||sdkclick.uve.weibo.com^$important
 ||kylin.im.weibo.cn^$important
+||gw.im.weibo.cn^$important
+||api.im.weibo.cn^$important
+||gw1.im.weibo.cn^$important
+||dp2.im.weibo.cn^$important
