@@ -39,3 +39,9 @@
 ||api.im.weibo.cn^$important
 ||gw1.im.weibo.cn^$important
 ||dp2.im.weibo.cn^$important
+
+#彩云app
+||ad.caiyunapp.com^$important
+||toblog.ctobsnssdk.com^$important
+||extlog.snssdk.com^$important
+
