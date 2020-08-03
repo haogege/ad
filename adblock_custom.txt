@@ -29,6 +29,7 @@
 
 !微博
 ||sdkapp.uve.weibo.com^$important
+||ad.us.sinaimg.cn^$important
 ||vs.biz.weibo.com^$important
 ||wbapp.uve.weibo.com^$important
 ||dp.im.weibo.cn^$important
