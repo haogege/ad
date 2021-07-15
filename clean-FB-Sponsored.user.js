@@ -6,7 +6,7 @@
 // @author       haogege
 // @include      /https:\/\/www.facebook.com
 // @grant        none
-// @downloadURL  https://github.com/chgc/CleanFBSapce/raw/master/clean-FB-space.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/haogege/ad@master/clean-FB-Sponsored.user.js
 // ==/UserScript==
 
 function removerightRailAd() {
