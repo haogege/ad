@@ -6,7 +6,7 @@
 // @author       haogege
 // @include      /https:\/\/www.facebook.com
 // @grant        none
-// @downloadURL  https://github.com/chgc/CleanFBSapce/raw/master/clean-FB-recommand.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/haogege/ad@master/clean-FB-suggested.user.js
 // ==/UserScript==
 
 const NeedToRemoveKeywords = ['为你推荐', 'Suggested for you'];
