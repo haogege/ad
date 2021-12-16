@@ -1,2 +1,5 @@
 ||adashbc.ut.taobao.com^
 ||applog.uc.cn^
+@@||gbres.dfcfw.com^
+@@||ca.iadsdk.apple.com^
+@@||nt2.ele.me^
