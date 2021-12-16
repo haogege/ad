@@ -3,3 +3,5 @@
 @@||gbres.dfcfw.com^
 @@||ca.iadsdk.apple.com^
 @@||nt2.ele.me^
+@@||j5.dfcfw.com^
+@@||j2.dfcfw.com^
