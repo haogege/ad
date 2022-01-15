@@ -8,3 +8,14 @@
 @@||j7.dfcfw.com^
 @@||pdf.dfcfw.com^
 @@||empic.dfcfw.com^
+@@||bd.a.yximgs.com^
+@@||live2.static.yximgs.com^
+@@||live4.static.yximgs.com^
+@@||live1.static.yximgs.com^
+@@||live3.static.yximgs.com^
+@@||p4.a.yximgs.com^
+@@||p3.a.yximgs.com^
+@@||p5.a.yximgs.com^
+@@||p1.a.yximgs.com^
+@@||p2.a.yximgs.com^
+@@||static.yximgs.com^
