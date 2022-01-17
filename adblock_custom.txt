@@ -1,12 +1,18 @@
 ||adashbc.ut.taobao.com^
 ||applog.uc.cn^
+
+#东方财富
 @@||gbres.dfcfw.com^
-@@||ca.iadsdk.apple.com^
 @@||nt2.ele.me^
 @@||j5.dfcfw.com^
 @@||j2.dfcfw.com^
 @@||j7.dfcfw.com^
 @@||pdf.dfcfw.com^
 @@||empic.dfcfw.com^
+@@||dfscdn.dfcfw.com^
+
+#快手
 @@||yximgs.com^
 
+#苹果
+@@||ca.iadsdk.apple.com^
