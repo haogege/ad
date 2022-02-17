@@ -3,6 +3,7 @@
 
 #东方财富
 @@||gbres.dfcfw.com^
+@@||gbfek.dfcfw.com^
 @@||j5.dfcfw.com^
 @@||j2.dfcfw.com^
 @@||j7.dfcfw.com^
