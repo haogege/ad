@@ -15,7 +15,7 @@
 @@||nt2.ele.me^
 
 #快手
-@@||yximgs.com^
+#@@||yximgs.com^
 
 #苹果
 @@||ca.iadsdk.apple.com^
