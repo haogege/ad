@@ -1,3 +1,4 @@
+#淘宝
 ||adashbc.ut.taobao.com^
 ||applog.uc.cn^
 
@@ -19,3 +20,11 @@
 
 #苹果
 @@||ca.iadsdk.apple.com^
+
+#微博
+||storage.wax.weibo.com^
+||api.weibo.cn/2/logservice/attach
+||api.weibo.cn/2/video/machine?
+
+#同花顺
+@@||vaserviece.10jqka.com.cn^
