@@ -17,6 +17,7 @@
 
 #快手
 #@@||yximgs.com^
+@@||api2.e.kuaishou.com^
 
 #苹果
 @@||ca.iadsdk.apple.com^
