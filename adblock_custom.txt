@@ -2,6 +2,10 @@
 ||adashbc.ut.taobao.com^
 ||applog.uc.cn^
 
+#微博
+||sdkapp.uve.weibo.com^
+||wbapp.uve.weibo.com^
+
 #东方财富
 @@||gbres.dfcfw.com^
 @@||gbfek.dfcfw.com^
