@@ -1,0 +1,15 @@
+#!name=飞客茶馆去广告
+#!desc=屏蔽飞客茶馆广告
+
+[URL Rewrite]
+# 屏蔽飞客茶馆广告
+
+https://ptf.flyertrip.com/common/cf/200413n6yjq55fy6f69tym.jpg - reject
+https://ptf.flyertrip.com/static/mobile/480.mp4 - reject
+https://m.jingxi.com/webmonitor/collect/biz.json - reject
+https://hermes.jd.com/log.gif - reject
+https://saturn.jd.com/log/sdk - reject
+https://api.m.jd.com/api\?functionId=pingou_rpds_custom - reject
+https://api.m.jd.com/api\?functionId=pingou_webmonitor_biz - reject
+https://sgm-m.jd.com/h5/custom - reject
+https://blackhole.m.jd.com/bypass - reject
