@@ -4,5 +4,5 @@
 [Rule]
 # 屏蔽飞客茶馆广告
 
-URL-REGEX,^https?:\/\/pdf\.flyertrip\.com\/common\/cf\.+\.jpg,REJECT
-URL-REGEX,^https?:\/\/pdf\.flyertrip\.com\/static\/mobile\.+\.mp4,REJECT
+URL-REGEX,^https?:\/\/ptf\.flyertrip\.com\/common\/cf\.+\.jpg,REJECT
+URL-REGEX,^https?:\/\/ptf\.flyertrip\.com\/static\/mobile\.+\.mp4,REJECT
