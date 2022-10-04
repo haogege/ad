@@ -1,8 +1,8 @@
 #!name=飞客茶馆去广告
 #!desc=屏蔽飞客茶馆广告
 
-[URL Rewrite]
+[Rule]
 # 屏蔽飞客茶馆广告
 
-https://ptf.flyertrip.com/common/cf/*.jpg - reject
-https://ptf.flyertrip.com/static/mobile/*.mp4 - reject
+URL-REGEX,^https?:\/\/pdf\.flyertrip\.com\/common\/cf\.+\.jpg,REJECT
+URL-REGEX,^https?:\/\/pdf\.flyertrip\.com\/static\/mobile\.+\.mp4,REJECT
