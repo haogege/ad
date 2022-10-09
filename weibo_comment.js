@@ -3,5 +3,5 @@ let body = JSON.parse($response.body);
 // adType: '推荐/广告', type: 1
 // 去除
 if (body.hasOwnProperty('datas'))
-    body['datas'] = body['datas'].filter(element => !(element['type'] === 1) && element.hasOwnProperty('commentAdType'));
+    body['datas'] = body['datas'].filter(element => !(element['type'] === 1 && element.hasOwnProperty('commentAdType')));
 $done({body: JSON.stringify(body)});
