@@ -3,6 +3,7 @@ let body = JSON.parse($response.body);
 // adType: '推荐/广告', type: 1
 if (body.hasOwnProperty('datas'))
     body['datas'] = body['datas'].filter(element => !(element['type'] === 1));
+    body['datas'] = body['datas'].filter(item.adType.includes('推荐'|'广告'));
 $done({body: JSON.stringify(body)});
 
 
@@ -10,7 +11,7 @@ $done({body: JSON.stringify(body)});
 const url = $request.url;
 let body = $response.body;
 
-function filter_timeline_cards(cards) {
+function filter_timeline_cards(datas) {
     const gg_words = ['推荐内容', '热推', '广告', '推荐'];
     if (cards && cards.length > 0) {
         let j = cards.length;
