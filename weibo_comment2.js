@@ -3,6 +3,7 @@ let body = JSON.parse($response.body);
 // adType: '推荐/广告', type: 1
 if (body.hasOwnProperty('datas'))
     body['datas'] = body['datas'].filter(element => !(element['type'] === 1));
+    body['datas'] = body['datas'].filter(element => (element['commentAdType'] === 1));
     body['datas'] = body['datas'].filter(item.adType.includes('推荐'|'广告'));
 $done({body: JSON.stringify(body)});
 
