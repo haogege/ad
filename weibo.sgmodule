@@ -4,7 +4,7 @@
 
 [Script]
 // 微博下面的评论
-http-response ^https:\/\/(api\.weibo\.cn|mapi\.weibo\.com)\/2\/comments\/build_comments\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/haogege/ad/master/weibo_comment.js
+微博评论json = type=http-response ^https:\/\/(api\.weibo\.cn|mapi\.weibo\.com)\/2\/comments\/build_comments\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/haogege/ad/master/weibo_comment.js
 
 // 微博 推荐 热门/榜单/放映厅… https://api.weibo.cn/2/statuses/unread_hot_timeline?
 // 微博 最新微博 https://api.weibo.cn/2/statuses/friends/timeline?
