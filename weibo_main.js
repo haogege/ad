@@ -29,7 +29,7 @@ const mainConfig = storeMainConfig ? JSON.parse(storeMainConfig) : {
 	removeInterestTopic: true,				//超话：可能感兴趣的超话 + 好友关注
 	removeInterestUser: true,				//用户页：可能感兴趣的人
 
-	removeLvZhou: false,					//绿洲模块
+	removeLvZhou: true,					//绿洲模块
 
 	profileSkin1: null,						//用户页：自定义图标1
 	profileSkin2: null,						//用户页：自定义图标2
