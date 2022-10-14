@@ -8,12 +8,12 @@ http:
     - "*.uve.weibo.com"
   script:
     # 微博去广告
-    - match: ^(http|https)://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
+    - match: ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
       name: wb
       type: response
       require-body: true
       timeout: 10
-    - match: ^(http|https)://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info)
+    - match: ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info)
       name: wb2
       type: response
       require-body: true
@@ -69,7 +69,7 @@ script-providers:
     interval: 86400
   # 微博 推荐 热门/榜单/放映厅…；微博 最新微博；视频流（短视频上划，微博继续推荐新视频）；微博 全部关注
   weibo_statuses:
-    url: https://raw.githubusercontent.com/haogege/ad/master/weibo_statuses.js
+    url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses.js
     interval: 86400
   # 发现 搜索 超话 帖子/精华/官方
   weibo_cardlist:
