@@ -1,14 +1,37 @@
 #!name=飞客茶馆去广告
 #!desc=屏蔽飞客茶馆广告
 
-[Rule]
+#[Rule]
 # > 飞客茶馆
-URL-REGEX,^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis,REJECT
+#URL-REGEX,^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis,REJECT
 
 #URL-REGEX,^https?:\/\/ptf\.flyertrip\.com\/common\/cf\.+\.jpg,REJECT
 #URL-REGEX,^https?:\/\/ptf\.flyertrip\.com\/static\/mobile\.+\.mp4,REJECT
 #URL-REGEX,^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis,reject
 
-[URL Rewrite]
-^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject
-^https?:\/\/ptf\.flyertrip\.com\/static\/mobile\/.*.mp4 - reject
+#[URL Rewrite]
+#^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject
+#^https?:\/\/ptf\.flyertrip\.com\/static\/mobile\/.*.mp4 - reject
+
+
+[MITM]
+hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
+
+[Rule]
+URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/icon,DIRECT
+URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common,REJECT
+URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/cf,REJECT
+
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CD,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/69,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/00\/DA,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/C0,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/B5,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CD,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/BE,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/63,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CE,REJECT
+URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/64,REJECT
+
+[General]
+skip-proxy = %INSERT% pmbservice.bosc.cn, pmbanalysis.bosc.cn, pmbmpush.bosc.cn, www.baidu.com
