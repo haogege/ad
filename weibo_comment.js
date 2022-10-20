@@ -9,5 +9,5 @@ function modify(body) {
 }
 
 let body = $response.body;
-body = modify(body);
-$done({ body: body });
+body = JSON.stringify(body);
+$done({body});
