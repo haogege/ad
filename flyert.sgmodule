@@ -2,7 +2,8 @@
 #!desc=屏蔽飞客茶馆广告
 
 [Rule]
-# 屏蔽飞客茶馆广告
+# > 飞客茶馆
+URL-REGEX,^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis,REJECT
 
 #URL-REGEX,^https?:\/\/ptf\.flyertrip\.com\/common\/cf\.+\.jpg,REJECT
 #URL-REGEX,^https?:\/\/ptf\.flyertrip\.com\/static\/mobile\.+\.mp4,REJECT
@@ -10,3 +11,4 @@
 
 [URL Rewrite]
 ^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject
+^https?:\/\/ptf\.flyertrip\.com\/static\/mobile\/.*.mp4 - reject
