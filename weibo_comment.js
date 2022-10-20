@@ -3,7 +3,6 @@ function modify(body) {
         if (body.datas.hasOwnProperty('type')) {
             body.datas.type != 1;
         }
-
     }
     return body;
 }
