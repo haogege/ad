@@ -2,7 +2,7 @@ function modify(url, body) {
     if (url.includes("/comments/build_comments")) {
         body = JSON.parse(body);
         if (body.hasOwnProperty('datas')) {
-            body.datas.commentAdType === 1
+            body.datas.type == 0
         }
         return JSON.stringify(body);
     }
