@@ -1,7 +1,13 @@
-let body = $response.body;
+//let body = $response.body;
 //body = JSON.parse(body);
-// 过滤评论
-// adType: '推荐/广告', type: 1
-body['datas'] = body['datas'].filter(element => !(element['type'] === 1));
-body = JSON.stringify(body);
-$done({body});
+//body['datas'] = body['datas'].filter(element => !(element['type'] === 1));
+//body = JSON.stringify(body);
+//$done({body});
+
+
+let obj = JSON.parse($response.body);
+let resultData = obj["datas"].filter((item) => {
+  return item["type"] != 1
+})
+obj["datas"] = resultData;
+$done({body:JSON.stringify(obj)});
